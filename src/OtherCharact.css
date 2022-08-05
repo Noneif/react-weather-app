@@ -1,0 +1,21 @@
+.OtherCharact .other-temp-character {
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: 600;
+  color: rgb(110, 109, 109);
+  line-height: 18px;
+  padding: 12px 11px;
+}
+.OtherCharact .other-temp-character p {
+  margin: 0;
+}
+.OtherCharact .general-current-status {
+  font-family: monospace;
+  font-weight: 900;
+  color: rgba(39, 97, 223, 0.8);
+  font-size: 22px;
+  line-height: 22px;
+}
+.OtherCharact .general-current-status::first-letter {
+  text-transform: capitalize;
+}

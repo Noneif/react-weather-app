@@ -1,0 +1,10 @@
+.Footer {
+  text-align: center;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: rgba(86, 31, 189, 0.5);
+  font-size: 13px;
+  font-weight: bold;
+}
+.Footer .footer-link {
+  text-decoration: none;
+}

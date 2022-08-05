@@ -1,0 +1,21 @@
+import React from "react";
+
+import "./OtherCharact.css";
+
+function OtherCharact(props) {
+  return (
+    <div className="col-4 OtherCharact">
+      <div className="other-temp-character">
+        <p className="general-current-status">{props.general}</p>
+        <p>
+          Humidity:<span className="humidity">{props.humidity}</span>%
+        </p>
+        <p>
+          Wind:<span className="wind-speed">{props.wind}</span>km/h
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default OtherCharact;

@@ -1,0 +1,10 @@
+.TimeUpdate .date {
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: 600;
+  color: rgb(110, 109, 109);
+  line-height: 18px;
+}
+.TimeUpdate .date p {
+  margin: 0;
+}
