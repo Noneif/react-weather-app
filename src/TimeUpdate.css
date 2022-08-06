@@ -3,8 +3,14 @@
   font-family: monospace;
   font-weight: 600;
   color: rgb(110, 109, 109);
-  line-height: 18px;
+  line-height: 1.2;
 }
 .TimeUpdate .date p {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .TimeUpdate .date {
+    font-size: 14px;
+  }
 }

@@ -1,6 +1,3 @@
-.FullCurrent .full-current {
-  padding: 12px 0;
-}
 .FullCurrent .icon {
   height: 65px;
   width: 65px;
@@ -10,7 +7,7 @@
   font-family: "Kdam Thmor Pro", sans-serif;
   font-weight: 900;
   color: rgb(4, 161, 4);
-  line-height: 36px;
+  line-height: 1.2;
   padding-right: 4px;
 }
 .FullCurrent .temp-sign {
@@ -29,4 +26,21 @@
   font-weight: 550;
   color: rgb(110, 109, 109);
   line-height: 53px;
+}
+@media (max-width: 768px) {
+  .FullCurrent .icon {
+    height: 45px;
+    width: 45px;
+  }
+  .FullCurrent .cur-num {
+    font-size: 22px;
+  }
+  .FullCurrent .temp-sign {
+    font-size: 12px;
+    line-height: 33px;
+  }
+  .FullCurrent .vertical-slash {
+    font-size: 12px;
+    line-height: 33px;
+  }
 }

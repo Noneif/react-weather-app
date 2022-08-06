@@ -4,10 +4,9 @@ import "./TimeUpdate.css";
 
 function TimeUpdate(props) {
   return (
-    <div className="col-4 TimeUpdate">
+    <div className="col-sm-4 mb-2 mb-sm-0 text-center text-sm-start TimeUpdate">
       <div className="date">
-        <p>Last update:</p>
-        <p>{props.value}</p>
+        <p>Last update: {props.value}</p>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import "./FullCurrent.css";
 
 function FullCurrent(props) {
   return (
-    <div className="col-4 FullCurrent">
+    <div className="col-12 col-sm-4 text-center text-sm-start FullCurrent">
       <div class="full-current">
         <img
           src="http://openweathermap.org/img/wn/10d@2x.png"

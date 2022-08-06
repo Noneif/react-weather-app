@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="Footer">
       <a
-        href="https://github.com/Noneif/weather-react-app"
+        href="https://github.com/Noneif/react-weather-app"
         target="_blank"
         rel="noreferrer"
         className="footer-link"

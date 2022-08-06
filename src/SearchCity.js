@@ -3,7 +3,7 @@ import "./SearchCity.css";
 
 function SearchCity() {
   return (
-    <div className="col-8 SearchCity">
+    <div className="col-sm-8 SearchCity">
       <form>
         <div className="input-group mb-0 box">
           <span className="input-group-text">
@@ -16,6 +16,7 @@ function SearchCity() {
             placeholder="city"
             id="form-control"
             autoComplete="off"
+            autoFocus="on"
           />
           <button type="submit" className="btn btn-primary blue">
             Apply
