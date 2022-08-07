@@ -6,12 +6,8 @@ function FullCurrent(props) {
   return (
     <div className="col-12 col-sm-4 text-center text-sm-start FullCurrent">
       <div class="full-current">
-        <img
-          src="http://openweathermap.org/img/wn/10d@2x.png"
-          alt="weather"
-          className="icon"
-        />
-        <span className="align-middle cur-num">{props.number}</span>
+        <img src={props.icon} alt={props.alt} className="icon" />
+        <span className="align-middle cur-num">{Math.round(props.temp)}</span>
         <a href="/" className="align-top temp-sign">
           °C
         </a>

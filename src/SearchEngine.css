@@ -1,10 +1,10 @@
-.SearchCity .fa-solid.fa-magnifying-glass {
+.SearchEngine .fa-solid.fa-magnifying-glass {
   color: rgba(39, 97, 223, 0.8);
 }
-.SearchCity input,
+.SearchEngine input,
 .btn.btn-primary {
   font-family: "Kdam Thmor Pro", sans-serif;
 }
-.SearchCity .btn.btn-primary.blue {
+.SearchEngine .btn.btn-primary.blue {
   background: rgb(39, 97, 223);
 }

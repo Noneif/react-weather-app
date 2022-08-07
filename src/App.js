@@ -1,7 +1,6 @@
 import React from "react";
 
-import FirstRow from "./FirstRow";
-import SecondRow from "./SecondRow";
+import SearchEngine from "./SearchEngine";
 import Footer from "./Footer";
 
 import "./App.css";
@@ -12,8 +11,7 @@ function App() {
       <div className="container">
         <div className="card">
           <div className="card-body">
-            <FirstRow />
-            <SecondRow />
+            <SearchEngine defaultCity="Emmen" />
             <Footer />
           </div>
         </div>

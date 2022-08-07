@@ -11,7 +11,8 @@ function OtherCharact(props) {
           Humidity:<span className="humidity">{props.humidity}</span>%
         </p>
         <p>
-          Wind:<span className="wind-speed">{props.wind}</span>km/h
+          Wind:
+          <span className="wind-speed">{Math.round(props.wind * 3.6)}</span>km/h
         </p>
       </div>
     </div>
