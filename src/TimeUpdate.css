@@ -1,4 +1,4 @@
-.TimeUpdate .date {
+.TimeUpdate {
   font-size: 18px;
   font-family: monospace;
   font-weight: 600;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 768px) {
-  .TimeUpdate .date {
+  .TimeUpdate {
     font-size: 14px;
   }
 }
