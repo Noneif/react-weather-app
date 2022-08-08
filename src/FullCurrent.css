@@ -1,7 +1,3 @@
-.FullCurrent canvas {
-  height: 50px;
-  width: 50px;
-}
 .FullCurrent .cur-num {
   font-size: 36px;
   font-family: "Kdam Thmor Pro", sans-serif;
@@ -17,7 +13,7 @@
   font-family: "Kdam Thmor Pro", sans-serif;
   font-weight: 900;
 
-  line-height: 53px;
+  line-height: 48px;
 }
 .FullCurrent .temp-sign {
   color: rgb(39, 97, 223);
