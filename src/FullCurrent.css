@@ -42,7 +42,8 @@
   .FullCurrent .cur-num {
     font-size: 22px;
   }
-  .FullCurrent .temp-sign {
+  .FullCurrent .temp-sign,
+  .unit {
     font-size: 12px;
     line-height: 33px;
   }
