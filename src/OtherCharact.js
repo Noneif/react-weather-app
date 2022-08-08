@@ -4,7 +4,7 @@ import "./OtherCharact.css";
 
 function OtherCharact(props) {
   return (
-    <div className="col-12 col-sm-4 text-center text-sm-start OtherCharact">
+    <div className="col-12 col-md-4 text-center text-md-start OtherCharact">
       <div className="other-temp-character">
         <p className="general-current-status">{props.general}</p>
         <p>

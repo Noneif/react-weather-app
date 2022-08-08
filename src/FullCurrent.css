@@ -34,21 +34,21 @@
   color: rgb(110, 109, 109);
   line-height: 53px;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .FullCurrent canvas {
     height: 30px;
     width: 30px;
   }
-  .FullCurrent .cur-num {
+  /* .FullCurrent .cur-num {
     font-size: 22px;
   }
   .FullCurrent .temp-sign,
   .unit {
     font-size: 12px;
     line-height: 33px;
-  }
-  .FullCurrent .vertical-slash {
+  } */
+/* .FullCurrent .vertical-slash {
     font-size: 12px;
     line-height: 33px;
   }
-}
+} */

@@ -18,7 +18,7 @@
 .OtherCharact .general-current-status::first-letter {
   text-transform: capitalize;
 }
-
+/* 
 @media (max-width: 768px) {
   .OtherCharact .other-temp-character {
     font-size: 14px;
@@ -26,4 +26,4 @@
   .OtherCharact .general-current-status {
     font-size: 17px;
   }
-}
+} */
