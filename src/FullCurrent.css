@@ -8,7 +8,7 @@
   font-weight: 900;
   color: rgb(4, 161, 4);
   line-height: 1.2;
-  padding-right: 4px;
+  padding: 0 4px;
 }
 .FullCurrent .temp-sign,
 .unit {
