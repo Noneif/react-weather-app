@@ -4,16 +4,11 @@
   font-weight: 600;
   color: rgb(86, 31, 189);
   padding: 10px 20px 0;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  left: 12px;
-  background: rgba(39, 97, 223, 0.02);
 }
 .titleForecast::after {
   content: "";
   position: absolute;
-  left: 20px;
+  left: 40px;
   margin: 20px 0 0 0;
   height: 0.7px;
   background-color: rgba(86, 31, 189, 0.6);
