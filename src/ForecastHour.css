@@ -1,0 +1,35 @@
+.ForecastHour {
+  /* background: rgba(86, 31, 189, 0.03); */
+  padding: 20px 12px;
+  margin-bottom: 40px;
+  /* border: 2px solid rgba(86, 31, 189, 0.1);
+  border-radius: 15px; */
+}
+.ForecastHour .hour {
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: 600;
+  color: rgb(110, 109, 109);
+  line-height: 1.2;
+  margin: 0;
+}
+.ForecastHour .cur-day-temp {
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: 600;
+  color: rgb(4, 161, 4);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .ForecastHour {
+    padding: 10px 12px;
+    margin-bottom: 10px;
+  }
+  /* .ForecastHour .hour {
+    font-size: 14px;
+  }
+  .ForecastHour .cur-day-temp {
+    font-size: 14px;
+  } */
+}

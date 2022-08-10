@@ -4,7 +4,11 @@
   color: rgba(86, 31, 189, 0.5);
   font-size: 13px;
   font-weight: bold;
+  margin-top: 20px;
 }
 .Footer .footer-link {
   text-decoration: none;
+}
+.Footer .fa-github {
+  font-size: 20px;
 }
