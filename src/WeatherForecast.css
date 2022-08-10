@@ -8,7 +8,7 @@
   position: -webkit-sticky;
   top: 0;
   left: 12px;
-  background: white;
+  background: rgba(39, 97, 223, 0.02);
 }
 .titleForecast::after {
   content: "";
