@@ -1,0 +1,18 @@
+.Footer {
+  text-align: center;
+  font-family: var(--secondary-font);
+  color: var(--main-color);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.Footer .footer-link {
+  text-decoration: none;
+  color: var(--second-color);
+}
+.Footer .footer-link:hover {
+  color: var(--main-color);
+}
+.Footer .fa-github {
+  font-size: 20px;
+}

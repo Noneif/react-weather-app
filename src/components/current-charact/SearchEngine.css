@@ -1,0 +1,30 @@
+.SearchEngine .fa-solid.fa-magnifying-glass {
+  color: var(--background-color);
+}
+.SearchEngine input {
+  font-family: var(--main-font);
+}
+.SearchEngine .btn.btn-primary.blue {
+  background: var(--second-color);
+  border-color: var(--second-color);
+}
+.SearchEngine .btn.btn-primary.blue:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.SearchEngine .cityLinks {
+  padding: 10px 20px;
+  background: var(--main-color);
+  border-radius: 10px;
+  margin: 0 0 20px;
+}
+.SearchEngine .cityLinks .link {
+  padding: 0;
+}
+.SearchEngine .cityLinks a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: var(--background-color);
+}

@@ -1,0 +1,9 @@
+.titleForecast {
+  font-size: 12px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: var(--background-color);
+  padding: 10px 20px;
+  background: var(--main-color);
+  border-radius: 10px;
+}

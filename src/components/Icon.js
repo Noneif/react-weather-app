@@ -22,10 +22,32 @@ function Icon(props) {
     "50d": "FOG",
     "50n": "FOG",
   };
+
+  const codeColor = {
+    "01d": "#fcff89",
+    "01n": "#fcff89",
+    "02d": "#ca9dd7",
+    "02n": "#ca9dd7",
+    "03d": "#ca9dd7",
+    "03n": "#ca9dd7",
+    "04d": "#ca9dd7",
+    "04n": "#ca9dd7",
+    "09d": "#7effdb",
+    "09n": "#7effdb",
+    "10d": "#7effdb",
+    "10n": "#7effdb",
+    "11d": "#7effdb",
+    "11n": "#7effdb",
+    "13d": "#fcff89",
+    "13n": "#fcff89",
+    "50d": "#ca9dd7",
+    "50n": "#ca9dd7",
+  };
+
   return (
     <ReactAnimatedWeather
       icon={codeMapping[props.code]}
-      color="rgb(110, 109, 109)"
+      color={codeColor[props.code]}
       size={props.size}
       animate={true}
     />

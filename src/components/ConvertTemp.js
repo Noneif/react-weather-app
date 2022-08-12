@@ -21,10 +21,10 @@ function ConvertTemp(props) {
     return (
       <span>
         <span className="align-midle cur-num">{Math.round(props.celsius)}</span>
-        <span className="align-top unit">°C</span>
+        <span className="align-top unit">° C</span>
         <span className="align-top vertical-slash">|</span>
         <a href="/" className="align-top temp-sign" onClick={convertFahrenheit}>
-          °F
+          ° F
         </a>
       </span>
     );
@@ -33,10 +33,10 @@ function ConvertTemp(props) {
       <span>
         <span className="align-midle cur-num">{Math.round(fahrenheit())}</span>
         <a href="/" className="align-top temp-sign" onClick={convertCelsius}>
-          °C
+          ° C
         </a>
         <span className="align-top vertical-slash">|</span>
-        <span className="align-top unit">°F</span>
+        <span className="align-top unit">° F</span>
       </span>
     );
   }

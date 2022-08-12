@@ -1,0 +1,32 @@
+.ForecastHour {
+  padding: 20px 12px;
+  margin-bottom: 10px;
+}
+.ForecastHour .hour {
+  font-size: 16px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--main-color);
+  line-height: 1.2;
+  margin: 0;
+}
+.ForecastHour .hour-now {
+  font-family: var(--main-font);
+  font-weight: 900;
+  color: var(--second-color);
+  font-size: 16px;
+  margin: 0;
+}
+.ForecastHour .cur-day-temp {
+  font-size: 16px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--main-color);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .ForecastHour {
+    padding: 10px 12px;
+  }
+}

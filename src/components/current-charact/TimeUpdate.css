@@ -1,0 +1,7 @@
+.TimeUpdate {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--main-color);
+  line-height: 1.2;
+}

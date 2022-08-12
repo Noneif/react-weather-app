@@ -1,7 +1,7 @@
 import React from "react";
 
-import SearchEngine from "./SearchEngine";
-import Footer from "./Footer";
+import SearchEngine from "./components/current-charact/SearchEngine";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -11,7 +11,7 @@ function App() {
       <div className="container">
         <div className="card">
           <div className="card-body">
-            <SearchEngine defaultCity="Emmen" />
+            <SearchEngine defaultCity={"Amsterdam"} />
             <Footer />
           </div>
         </div>

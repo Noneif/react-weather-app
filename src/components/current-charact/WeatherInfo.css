@@ -1,0 +1,59 @@
+.WeatherInfo .City {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--main-font);
+  color: var(--second-color);
+  line-height: 1.5;
+}
+.WeatherInfo .FullCurrent .cur-num {
+  font-size: 36px;
+  font-family: var(--main-font);
+  font-weight: 900;
+  color: var(--main-color);
+  line-height: 1.2;
+  padding: 0 4px;
+}
+.WeatherInfo .FullCurrent .temp-sign,
+.unit {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: var(--main-font);
+  font-weight: 900;
+
+  line-height: 48px;
+}
+.WeatherInfo .FullCurrent .temp-sign {
+  color: var(--main-color);
+}
+.WeatherInfo .FullCurrent .unit {
+  color: var(--second-color);
+}
+.WeatherInfo .FullCurrent .vertical-slash {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 5px;
+  font-family: var(--main-font);
+  font-weight: 550;
+  color: var(--main-color);
+  line-height: 53px;
+}
+.WeatherInfo .OtherCharact {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--main-color);
+  line-height: 1.2;
+}
+.WeatherInfo .OtherCharact p {
+  margin: 0;
+}
+.WeatherInfo .OtherCharact .general-current-status {
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  color: var(--second-color);
+  font-size: 22px;
+  line-height: 1.2;
+}
+.WeatherInfo .OtherCharact .general-current-status:first-letter {
+  text-transform: capitalize;
+}

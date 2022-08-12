@@ -1,9 +1,16 @@
+:root {
+  --main-font: "Kdam Thmor Pro", sans-serif;
+  --secondary-font: monospace;
+  --main-color: azure;
+  --second-color: #fbb040;
+  --background-color: #7c73e6;
+}
+
 .App .card {
   max-width: 750px;
   display: block;
   margin: 50px auto;
-  border: 3px solid rgb(39, 97, 223);
-  background: rgba(39, 97, 223, 0.02);
+  background: var(--background-color);
 }
 .App .card-body {
   padding: 30px 20px 10px;
