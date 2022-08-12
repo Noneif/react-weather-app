@@ -23,10 +23,10 @@
   line-height: 48px;
 }
 .WeatherInfo .FullCurrent .temp-sign {
-  color: var(--main-color);
+  color: var(--second-color);
 }
 .WeatherInfo .FullCurrent .unit {
-  color: var(--second-color);
+  color: var(--main-color);
 }
 .WeatherInfo .FullCurrent .vertical-slash {
   text-decoration: none;
