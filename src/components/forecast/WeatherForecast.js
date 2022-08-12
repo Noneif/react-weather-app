@@ -46,14 +46,14 @@ function WeatherForecast(props) {
           <i className="fa-regular fa-calendar-days"></i> 6-DAY FORECAST
         </div>
         <div className="row">
-          <div className="col-4 col-md-2 d-flex justify-content-center p-2 text-center">
+          <div className="col-4 col-md-2 justify-content-center p-2 text-center">
             <ForecastDayToday data={day[0]} day={"Today"} />
           </div>
           {day.map((value, index) => {
             if (index > 0 && index < 6) {
               return (
                 <div
-                  className="col-4 col-md-2 d-flex justify-content-center p-2 text-center"
+                  className="col-4 col-md-2 justify-content-center p-2 text-center"
                   key={index}
                 >
                   <ForecastDay data={value} />
