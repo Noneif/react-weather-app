@@ -3,6 +3,7 @@
 }
 .SearchEngine input {
   font-family: var(--main-font);
+  color: var(--background-color);
 }
 .SearchEngine .btn.btn-primary.blue {
   background: var(--second-color);
