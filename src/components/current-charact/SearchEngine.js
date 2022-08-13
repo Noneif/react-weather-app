@@ -82,32 +82,32 @@ function SearchEngine(props) {
     return (
       <div className="SearchEngine">
         <div className="row text-center cityLinks">
-          <div className="col-4  col-md-2 link">
+          <div className="col-4 col-md-2 link">
             <a href="/" onClick={handleLinkKyiv}>
               KYIV
             </a>
           </div>
-          <div className="col-4  col-md-2 link">
+          <div className="col-4 col-md-2 link">
             <a href="/" onClick={handleLinkVienna}>
               VIENNA
             </a>
           </div>
-          <div className="col-4  col-md-2 link">
+          <div className="col-4 col-md-2 link">
             <a href="/" onClick={handleLinkLondon}>
               LONDON
             </a>
           </div>
-          <div className="col-4  col-md-2 link">
+          <div className="col-4 col-md-2 d-none d-md-block link">
             <a href="/" onClick={handleLinkParis}>
               PARIS
             </a>
           </div>
-          <div className="col-4  col-md-2 link">
+          <div className="col-4 col-md-2 d-none d-md-block link">
             <a href="/" onClick={handleLinkBerlin}>
               BERLIN
             </a>
           </div>
-          <div className="col-4  col-md-2 link">
+          <div className="col-4 col-md-2 d-none d-md-block link">
             <a href="/" onClick={handleLinkLisbon}>
               LISBON
             </a>

@@ -19,8 +19,7 @@
   font-size: 20px;
   font-family: var(--main-font);
   font-weight: 900;
-
-  line-height: 48px;
+  line-height: 2.5;
 }
 .WeatherInfo .FullCurrent .temp-sign {
   color: var(--second-color);
@@ -35,7 +34,7 @@
   font-family: var(--main-font);
   font-weight: 550;
   color: var(--main-color);
-  line-height: 53px;
+  line-height: 2.5;
 }
 .WeatherInfo .OtherCharact {
   font-size: 18px;
