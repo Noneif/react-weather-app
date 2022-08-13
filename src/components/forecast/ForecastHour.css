@@ -29,5 +29,6 @@
 @media (max-width: 768px) {
   .ForecastHour {
     padding: 10px 12px;
+    margin-bottom: 0;
   }
 }

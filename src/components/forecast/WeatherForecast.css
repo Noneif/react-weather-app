@@ -1,4 +1,4 @@
-.titleForecast {
+.WeatherForecast .titleForecast {
   font-size: 12px;
   font-family: var(--main-font);
   font-weight: 600;
@@ -6,4 +6,10 @@
   padding: 10px 20px;
   background: var(--main-color);
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .WeatherForecast .titleForecast {
+    margin-top: 10px;
+  }
 }
