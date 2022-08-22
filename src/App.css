@@ -5,7 +5,9 @@
   --second-color: #fbb040;
   --background-color: #7c73e6;
 }
-
+body {
+  background: #7c73e62e;
+}
 .App .card {
   max-width: 750px;
   display: block;

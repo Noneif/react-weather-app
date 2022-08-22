@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="card">
+        <div className="card shadow">
           <div className="card-body">
             <SearchEngine defaultCity={"Amsterdam"} />
             <Footer />
