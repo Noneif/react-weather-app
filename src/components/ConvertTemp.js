@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import $ from "jquery";
 
 function ConvertTemp(props) {
   const [unit, setUnit] = useState("celsius");
@@ -6,11 +7,23 @@ function ConvertTemp(props) {
   function convertCelsius(event) {
     event.preventDefault();
     setUnit("celsius");
+
+    $(".day-temp-min, .day-temp-max, .cur-day-temp").html(function () {
+      let htmlString = $(this).html();
+      htmlString = Number.parseInt(htmlString, 10);
+      return `${Math.round(((htmlString - 32) * 5) / 9)}°`;
+    });
   }
 
   function convertFahrenheit(event) {
     event.preventDefault();
     setUnit("fahrenheit");
+
+    $(".day-temp-min, .day-temp-max, .cur-day-temp").html(function () {
+      let htmlString = $(this).html();
+      htmlString = Number.parseInt(htmlString, 10);
+      return `${Math.round((htmlString * 9) / 5 + 32)}°`;
+    });
   }
 
   function fahrenheit() {
